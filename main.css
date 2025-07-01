@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Poppins", sans-serif
+}
+body{
+    background-color: black;
+    color: white;
+}
+h1 {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px;
+}
+.box-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+
+}
+.box-input input{
+    height: 50px;
+    width: 400px;
+    border-radius: 15px;
+    color: black;
+    padding: 10px 25px;
+    font-size: 17px;
+    border: 1px solid black;
+
+}
+.box-input button  {
+    background-color: blue;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: white;
+    font-size: 17px;
+}
+.done{
+    text-decoration: line-through;
+    color: grey;
+}
+.task{
+    font-size: 18px;
+}
+.check {
+    background-color: green;
+    border: 1px solid balck;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.remove {
+    background-color: red;
+    border: 1px solid balck;
+    padding: 10px 10px;
+    border-radius: 10px;
+
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.checkicon{
+    width: 30px;
+}
+.item {
+    background-color: rgb(56, 51, 51);
+    border-radius: 20px;
+    padding: 20px 40px;
+    width:700px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    
+}
+@media(max-width:320px) {
+    .item {
+        padding: 15px 15px;
+        width:20px;
+
+        
+    }
+    .check {
+        padding: 8px 8px;
+        border-radius: 10px;
+    } 
+    .remove {
+        padding: 8px 8px;
+        border-radius: 10px;
+    
+    }
+    .task{
+        font-size: 14px;
+    }
+    .box-input {
+        gap: 13px;
+        padding:25px;
+    
+    }
+    .box-input input{
+        height: 40px;
+        width: 180px;
+        padding: 10px 20px;
+        font-size: 15px;
+
+    
+    }
+    .box-input button  {
+        padding: 7px 25px;
+        font-size: 16px;
+    }
+    
+}
+@media(max-width:375px) {
+    .item {
+        padding: 15px 20px;
+        width:300px;
+
+        
+    }
+    .check {
+
+        padding: 8px 8px;
+
+    } 
+    .remove {
+        padding: 8px 8px;
+    
+    }
+    .task{
+        font-size: 15px;
+    }
+    .box-input {
+        gap: 14px;
+        padding:25px;
+    
+    }
+    .box-input input{
+        height: 40px;
+        width: 200px;
+        padding: 10px 20px;
+        font-size: 15px;
+
+    
+    }
+    .box-input button  {
+        padding: 7px 25px;
+        font-size: 16px;
+    }
+    
+}
+@media(max-width:425px) {
+    .item {
+        padding: 15px 20px;
+        width:330px;
+   
+    }
+    .check {
+        padding: 8px 8px;
+        border-radius: 10px;
+    } 
+    .remove {
+
+        padding: 8px 8px;
+    
+    }
+    .task{
+        font-size: 15px;
+    }
+    .box-input {
+        gap: 13px;
+        padding:25px;
+    
+    }
+    .box-input input{
+        height: 40px;
+        width: 200px;
+        padding: 10px 20px;
+        font-size: 15px;
+
+    
+    }
+    .box-input button  {
+        padding: 7px 25px;
+        font-size: 16px;
+    }
+    
+}
