@@ -48,10 +48,11 @@ section{
 }
 .box-input button  {
     background-color: blue;
-    padding: 10px 30px;
+    padding: 14px 30px;
     border-radius: 15px;
     color: white;
     font-size: 17px;
+    border: none;
 }
 .done{
     text-decoration: line-through;
@@ -65,12 +66,14 @@ section{
     border: 1px solid balck;
     padding: 10px 10px;
     border-radius: 10px;
+    border: none;
 }
 .remove {
     background-color: red;
     border: 1px solid balck;
     padding: 10px 10px;
     border-radius: 10px;
+    border: none;
 
 }
 .box {
